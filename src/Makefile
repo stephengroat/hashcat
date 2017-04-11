@@ -142,6 +142,7 @@ CFLAGS                  += -Werror-implicit-function-declaration
 CFLAGS                  += -Wformat
 CFLAGS                  += -ftrapv
 CFLAGS                  += -Wwrite-strings
+CFLAGS                  += -pedantic
 
 # the following compiler options produce warnings that should be fixed at some time
 
@@ -149,7 +150,6 @@ CFLAGS                  += -Wwrite-strings
 #CFLAGS                  += -Wcast-align
 #CFLAGS                  += -Wcast-qual
 #CFLAGS                  += -Wsign-conversion
-#CFLAGS                  += -pedantic
 endif
 
 # default linux and freebsd thread stack size is 2MB
